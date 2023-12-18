@@ -5,5 +5,5 @@ resource "random_pet" "example" {
 }
 
 output "greeting" {
-  value = "Hello, ${random_pet.example.id}!"
+  value = "Helloooo, ${random_pet.example.id}!"
 }
