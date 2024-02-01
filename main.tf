@@ -5,5 +5,5 @@ resource "random_pet" "example" {
 }
 
 output "greeting" {
-  value = " ngrok, ${random_pet.example.id}!"
+  value = " yaptiklarimi tekrar ediyorum, ${random_pet.example.id}!"
 }
