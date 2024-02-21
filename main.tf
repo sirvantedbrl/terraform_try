@@ -5,5 +5,5 @@ resource "random_pet" "example" {
 }
 
 output "greeting" {
-  value = " yaptiklarimi tekrar ediyorum, ${random_pet.example.id}!"
+  value = " loglari kontrol edicem, ${random_pet.example.id}!"
 }
